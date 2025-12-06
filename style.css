@@ -1,0 +1,109 @@
+   * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(to right, #d9dee4, #e2e3e4);
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            color: #1c4d61;
+            line-height: 1.6;
+        }
+
+        section {
+            padding: 40px 20px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        .section-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #000000;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 10px;
+            color: #1c4d61;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* NAVIGATION BAR (Seu CSS) */
+        .nav-section {
+            width: 100%;
+            padding: 10px 0;
+            background-color: #0056b3;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-content {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #logo {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #cacaca;
+            letter-spacing: 0.5px;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            gap: 1.5rem;
+        }
+
+        ul li a {
+            display: block;
+            color: #cacaca;
+            text-align: center;
+            padding: 10px 14px;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+
+        ul li a:hover {
+            color: #ffffff;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .dropdown-menu {
+            display: flex;
+        }
+
+       
