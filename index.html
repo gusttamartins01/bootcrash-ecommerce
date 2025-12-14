@@ -4,18 +4,23 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=BBH+Hegarty&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sekuya&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>BootCrash</title>
-    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
         <section class="nav-section" id="navbar">
             <div class="nav-content">
-                <p id="logo">BootCrash</p>
+                <p class="logo">BootCrash</p>
 
                 <nav>
-                    <ul id="menu">
+                    <ul class="menu">
                         <li><a href="#">Início</a></li>
 
                         <li class="dropdown">
@@ -42,12 +47,12 @@
         <!-- HERO SECTION -->
         <section class="hero-section" id="hero">
             <div class="hero-content">
-                <h1>BootCrash — Seu passo, sua identidade.</h1>
+                <h1>BootCrash - <br> Seu passo, <br>sua identidade.</h1>
                 <h2>O tênis que acompanha o seu ritmo.</h2>
             </div>
 
             <div class="hero-img">
-                <img src="#" alt="Logo da loja BootCrash" />
+                <img src="/asset/logo.png" alt="Logo da loja BootCrash" />
             </div>
         </section>
 
@@ -59,7 +64,7 @@
                 <div class="category-grid">
                     <div class="category-card">
                         <div class="category-img">
-                            <img src="#" alt="Crash Street" />
+                            <img src="./asset/crashStreet.png" alt="Crash Street" />
                         </div>
                         <h3>Crash Street</h3>
 
@@ -74,7 +79,7 @@
 
                     <div class="category-card">
                         <div class="category-img">
-                            <img src="#" alt="Impact Run" />
+                            <img src="./asset/impactRun.png" alt="Impact Run" />
                         </div>
                         <h3>Impact Run</h3>
 
@@ -89,22 +94,7 @@
 
                     <div class="category-card">
                         <div class="category-img">
-                            <img src="#" alt="Urban Flex" />
-                        </div>
-                        <h3>Urban Flex</h3>
-
-                        <div class="category-info">
-                            <p>Modelos casuais e versáteis para o dia a dia.</p>
-                        </div>
-
-                        <div class="prices">
-                            <p>R$ 299,90</p>
-                        </div>
-                    </div>
-
-                    <div class="category-card">
-                        <div class="category-img">
-                            <img src="#" alt="Power Skate" />
+                            <img src="./asset/powerSkate.png" alt="Power Skate" />
                         </div>
                         <h3>Power Skate</h3>
 
@@ -116,22 +106,8 @@
                             <p>R$ 389,90</p>
                         </div>
                     </div>
-
-                    <div class="category-card">
-                        <div class="category-img">
-                            <img src="#" alt="Energy Boost" />
-                        </div>
-                        <h3>Energy Boost</h3>
-
-                        <div class="category-info">
-                            <p>Tênis esportivos, de treino e alta performance.</p>
-                        </div>
-
-                        <div class="prices">
-                            <p>R$ 449,90</p>
-                        </div>
-                    </div>
                 </div>
+            </div>
             </div>
         </section>
 
@@ -145,7 +121,7 @@
             <div class="news-grid">
                 <div class="news-card">
                     <div class="news-img">
-                        <img src="#" alt="Shadow Drift" />
+                        <img src="./asset/shadowDrift.png" alt="Shadow Drift" />
                     </div>
                     <h3>Shadow Drift</h3>
 
@@ -163,7 +139,7 @@
 
                 <div class="news-card">
                     <div class="news-img">
-                        <img src="#" alt="Nitro Pulse" />
+                        <img src="./asset/nitroPulse.png" alt="Nitro Pulse" />
                     </div>
                     <h3>Nitro Pulse</h3>
 
@@ -181,7 +157,7 @@
 
                 <div class="news-card">
                     <div class="news-img">
-                        <img src="#" alt="Blaze Striker" />
+                        <img src="./asset/blazeStriker.png" alt="Blaze Striker" />
                     </div>
                     <h3>Blaze Striker</h3>
 
@@ -209,7 +185,7 @@
             <div class="promotions-grid">
                 <div class="promotions-card">
                     <div class="promotions-img">
-                        <img src="#" alt="Thunder Crash" />
+                        <img src="./asset/thunderCrash.png" alt="Thunder Crash" />
                     </div>
                     <h3>Thunder Crash</h3>
 
@@ -227,24 +203,7 @@
 
                 <div class="promotions-card">
                     <div class="promotions-img">
-                        <img src="#" alt="Street Vortex" />
-                    </div>
-                    <h3>Street Vortex</h3>
-
-                    <div class="promotions-info">
-                        <p>
-                            Design streetwear moderno, resistente e ideal para o dia a dia.
-                        </p>
-                    </div>
-
-                    <div class="prices">
-                        <p><s>R$ 349,90</s> <strong>R$ 259,90</strong></p>
-                    </div>
-                </div>
-
-                <div class="promotions-card">
-                    <div class="promotions-img">
-                        <img src="#" alt="Crash Runner X" />
+                        <img src="./asset/crashRunnerX.png" alt="Crash Runner X" />
                     </div>
                     <h3>Crash Runner X</h3>
 
@@ -262,7 +221,7 @@
 
                 <div class="promotions-card">
                     <div class="promotions-img">
-                        <img src="#" alt="Urban Shadow" />
+                        <img src="./asset/urbanShadow.png" alt="Urban Shadow" />
                     </div>
                     <h3>Urban Shadow</h3>
 
@@ -282,15 +241,15 @@
         <!-- SUPORTE -->
         <section class="support-section" id="support">
             <div class="support-content">
-                <div class="support-card">
+                <div class="support">
                     <h2>Precisa de ajuda?</h2>
                     <p>descreva suas dúvidas e solicitações aqui:</p>
                 </div>
                 <div class="support-card">
                     <form class="support-form">
-                        
+
                         <label for="user-cpf">CPF:</label>
-                          <input type="text" id="user-cpf" placeholder="Digite o seu cpf" required />
+                        <input type="text" id="user-cpf" placeholder="Digite o seu cpf" required />
 
                         <label for="user-email">E-mail:</label>
                         <input type="email" id="user-email" placeholder="Digite o seu e-mail" required />
@@ -310,7 +269,7 @@
     <footer>
         <section class="footer-section" id="footer">
             <div class="footer-content">
-                <div class="footer-card">
+                <div class="footer">
                     <h2>Contatos</h2>
                     <p>Nos contate através das nossas redes socias</p>
                 </div>
@@ -318,10 +277,10 @@
                 <div class="footer-card">
                     <a href=""><img src="#" alt="Instagram" /></a>
                     <a href=""><img src="#" alt="WhatsApp" /></a>
-                    <a href=""><img src="#" alt="FaceBook" /></a>
+                    <a href=""><img src="#" alt="Linkedin" /></a>
                 </div>
 
-                <div class="footer-card">
+                <div class="footer-end">
                     <p>
                         &copy; 2025 Todos os direitos reservados. Desenvolvido por Gustavo
                         Martins.
