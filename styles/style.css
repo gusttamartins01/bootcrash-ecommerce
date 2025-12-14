@@ -34,7 +34,7 @@ ul {
 /* HEADER */
 
 header {
-    background: linear-gradient(to bottom,  #08316d, #05181f);
+    background: linear-gradient(to bottom, #08316d, #05181f);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -54,7 +54,7 @@ header {
 }
 
 .logo {
-    color: #ffe4c4;
+    color: #ffffff;
     font-weight: bold;
     font-size: 2rem;
 }
@@ -65,7 +65,7 @@ nav ul {
 }
 
 nav a {
-    color: #ffe4c4;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: 500;
     padding: 5px 0;
@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .menu a {
-    color: #ffe4c4;
+    color: #fff;
     font-weight: 500;
     padding: 8px 5px;
     display: block;
@@ -106,7 +106,7 @@ nav a:hover {
     position: absolute;
     top: 100%;
     left: 0;
-    background: linear-gradient(to bottom, #2d75e1, #3cb5de);
+    background: linear-gradient(to bottom, #08316d, #05181f);
     min-width: 180px;
     border-radius: 8px;
     padding: 10px 0;
@@ -130,7 +130,7 @@ nav a:hover {
 }
 
 .dropdown-menu a:hover {
-    background-color: #0c49a6;
+    background-color: #0b3a80;
     color: #000000;
 }
 
@@ -519,10 +519,10 @@ nav a:hover {
 /* FOOTER */
 
 .footer-section {
-    background: linear-gradient(to bottom,   #08316d, #05181f);
+    background: linear-gradient(to bottom, #08316d, #05181f);
     padding: 5rem 5%;
     padding: 15px 5%;
-    color: #ffe4c4;
+    color: #ffffff;
     padding: 4rem 5% 2rem;
 }
 
@@ -533,7 +533,7 @@ nav a:hover {
 
 }
 
-.footer h2{
+.footer h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
 
@@ -568,11 +568,11 @@ nav a:hover {
 }
 
 .footer-end p {
-     color: #ffffff;
+    color: #ffffff;
 }
 
 .fa-instagram {
-    color: #E1306C; 
+    color: #E1306C;
     font-size: 25px;
 }
 
@@ -587,11 +587,11 @@ nav a:hover {
 }
 
 .fa-instagram:hover {
-    color: #e0d7da;    
+    color: #e0d7da;
 }
 
 .fa-whatsapp:hover {
-    color: #e0d7da;  
+    color: #e0d7da;
 }
 
 .fa-linkedin-in:hover {
