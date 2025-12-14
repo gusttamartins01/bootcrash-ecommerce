@@ -34,7 +34,7 @@ ul {
 /* HEADER */
 
 header {
-    background: linear-gradient(to bottom,  #0b57c7, #4db8db);
+    background: linear-gradient(to bottom,  #08316d, #05181f);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -519,7 +519,7 @@ nav a:hover {
 /* FOOTER */
 
 .footer-section {
-    background: linear-gradient(to bottom,  #0b57c7, #3a91ae);
+    background: linear-gradient(to bottom,   #08316d, #05181f);
     padding: 5rem 5%;
     padding: 15px 5%;
     color: #ffe4c4;
