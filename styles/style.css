@@ -519,7 +519,7 @@ nav a:hover {
 /* FOOTER */
 
 .footer-section {
-    background: linear-gradient(to bottom, #0b57c7, #3cb5de);
+    background: linear-gradient(to bottom, #0b57c7, #226ddd, #226ddd, #0b57c7);
     padding: 5rem 5%;
     padding: 15px 5%;
     color: #ffe4c4;
