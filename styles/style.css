@@ -571,3 +571,29 @@ nav a:hover {
      color: #ffffff;
 }
 
+.fa-instagram {
+    color: #E1306C; 
+    font-size: 25px;
+}
+
+.fa-whatsapp {
+    color: #0b8f0b;
+    font-size: 25px;
+}
+
+.fa-linkedin-in {
+    color: #003da0;
+    font-size: 25px;
+}
+
+.fa-instagram:hover {
+    color: #e0d7da;    
+}
+
+.fa-whatsapp:hover {
+    color: #e0d7da;  
+}
+
+.fa-linkedin-in:hover {
+    color: #e0d7da;
+}
