@@ -34,7 +34,7 @@ ul {
 /* HEADER */
 
 header {
-    background: linear-gradient(to bottom, #08316d, #05181f);
+    background: linear-gradient(to bottom, #123569, #0b2b42);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -154,24 +154,24 @@ nav a:hover {
 }
 
 .hero-content {
-    max-width: 600px;
+    max-width: 1200px;
 }
 
 .hero-content h1 {
     font-family: "Poppins", sans-serif;
-    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-size: clamp(2.5rem, 5vw, 5rem);
     color: #123e81;
     margin-bottom: 1rem;
 }
 
 .hero-content h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #0c2852;
     text-align: start;
 }
 
 .hero-img img {
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
@@ -188,9 +188,8 @@ nav a:hover {
 }
 
 .category-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 4rem 5%;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 
 .category-content h2 {
@@ -272,14 +271,10 @@ nav a:hover {
 }
 
 .news-content h2 {
-    font-size: 2.3rem;
+    text-align: center;
+    font-size: 2.5rem;
     color: #123e81;
-    margin-bottom: 0.5rem;
-}
-
-.news-content p {
-    font-size: 1.1rem;
-    color: #0c2852;
+    margin-bottom: 3rem;
 }
 
 .news-grid {
@@ -290,18 +285,19 @@ nav a:hover {
     margin: 0 auto;
 }
 
+
 .news-card {
-    background-color: #fdf8f8;
-    border-radius: 22px;
-    padding: 1.8rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 1.5rem;
     text-align: center;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .news-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .news-img {
@@ -309,9 +305,8 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
 }
-
 
 .news-img img {
     max-width: 100%;
@@ -320,24 +315,24 @@ nav a:hover {
 }
 
 .news-card h3 {
-    font-size: 1.5rem;
-    color: #1b3f6c;
-    margin-bottom: 0.6rem;
+    font-size: 1.4rem;
+    color: #0c2852;
+    margin-bottom: 0.5rem;
 }
 
 .news-info p {
     font-size: 0.95rem;
     color: #555;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
 }
 
-.news-card .prices p {
-    font-size: 1.3rem;
+.prices p {
+    font-size: 1.2rem;
     font-weight: bold;
     color: #0c49a6;
 }
 
-/* NOVIDADES */
+/* PROMOÇÔES */
 
 .promotions-section {
     display: block;
@@ -354,14 +349,10 @@ nav a:hover {
 }
 
 .promotions-content h2 {
-    font-size: 2.3rem;
+    text-align: center;
+    font-size: 2.5rem;
     color: #123e81;
-    margin-bottom: 0.5rem;
-}
-
-.promotions-content p {
-    font-size: 1.1rem;
-    color: #0c2852;
+    margin-bottom: 3rem;
 }
 
 .promotions-grid {
@@ -372,18 +363,19 @@ nav a:hover {
     margin: 0 auto;
 }
 
+
 .promotions-card {
     background-color: #ffffff;
-    border-radius: 22px;
-    padding: 1.8rem;
+    border-radius: 20px;
+    padding: 1.5rem;
     text-align: center;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .promotions-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
 .promotions-img {
@@ -391,9 +383,8 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
 }
-
 
 .promotions-img img {
     max-width: 100%;
@@ -402,19 +393,19 @@ nav a:hover {
 }
 
 .promotions-card h3 {
-    font-size: 1.5rem;
-    color: #1b3f6c;
-    margin-bottom: 0.6rem;
+    font-size: 1.4rem;
+    color: #0c2852;
+    margin-bottom: 0.5rem;
 }
 
 .promotions-info p {
     font-size: 0.95rem;
     color: #555;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
 }
 
-.promotions-card .prices p {
-    font-size: 1.3rem;
+.prices p {
+    font-size: 1.2rem;
     font-weight: bold;
     color: #0c49a6;
 }
@@ -519,7 +510,7 @@ nav a:hover {
 /* FOOTER */
 
 .footer-section {
-    background: linear-gradient(to bottom, #08316d, #05181f);
+    background: linear-gradient(to bottom, #123569, #0b2b42);
     padding: 5rem 5%;
     padding: 15px 5%;
     color: #ffffff;
